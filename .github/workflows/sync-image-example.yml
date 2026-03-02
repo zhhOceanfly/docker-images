@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/gliderlabs/registrator:latest docker://registry.cn-qingdao.aliyuncs.com/oceanfly-github/gliderlabs-registrator:latest
+         skopeo copy docker://docker.io/hashicorp/consul:1.21.4 docker://registry.cn-qingdao.aliyuncs.com/oceanfly-github/consul:1.21.4
          
          
          
