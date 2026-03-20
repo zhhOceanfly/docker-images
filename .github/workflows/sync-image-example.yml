@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/dapr/3rdparty/kafka:latest docker://registry.cn-qingdao.aliyuncs.com/oceanfly-github/kafka:latest
+         skopeo copy docker://ghcr.io/dapr/3rdparty/zookeeper:latest docker://registry.cn-qingdao.aliyuncs.com/oceanfly-github/zookeeper:latest
          
          
          
